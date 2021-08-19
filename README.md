@@ -22,3 +22,6 @@ new WebpackOpenBrowserPlugin({
   url: 'http://localhost:8080'
 })
 ```
+![npm](https://img.shields.io/npm/v/webpack-open-browser-plugin)
+[![downloads](https://img.shields.io/npm/dm/webpack-open-browser-plugin.svg?style=flat-square)](https://www.npmtrends.com/webpack-open-browser-plugin)
+[![MIT License](https://img.shields.io/npm/l/webpack-open-browser-plugin.svg?style=flat-square)](https://github.com/fisker/webpack-open-browser-plugin/blob/master/license)
