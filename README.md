@@ -13,9 +13,9 @@ This plugin resolve the problem: when webpack after compile, browser will open, 
 npm install webpack-open-browser-plugin --save-dev
 ```
 ```javascript
-// webpack plugins config
-const WebpackOpenBrowserPlugin = require('webpack-open-browser-plugin');
+const WebpackOpenBrowserPlugin = require('webpack-open-browser-plugin')
 
+// webpack plugins config
 new WebpackOpenBrowserPlugin({
   url: 'http://localhost:8080'
 })
