@@ -6,18 +6,16 @@ webpack devServer 开发服务器自带了打开浏览器的功能，但是体�
 
 This plugin resolve the problem: when webpack after compile, browser will open, you can see the webpage, not a blank page!
 
-这个插件会解决这个问题，插件会在webpack编译完成，才打开浏览器，因为编译完成了，你能直接看到网页内容，而不是空白的加载页面。
+这个插件会解决这个问题，体验更好！插件会在webpack编译完成，才打开浏览器，因为编译完成了，你能直接看到网页内容，而不是空白的加载页面。
 
-本插件结合了webpack的编译hook钩子实现的，可以得到更好的体验。
-
-打开浏览器的功能兼容 Windows 和 Mac。
-
-## how to use
+## How to use
 ```console
 npm install webpack-open-browser-plugin --save-dev
 ```
 ```javascript
 // webpack plugins config
+const WebpackOpenBrowserPlugin = require('webpack-open-browser-plugin');
+
 new WebpackOpenBrowserPlugin({
   url: 'http://localhost:8080'
 })
@@ -25,3 +23,9 @@ new WebpackOpenBrowserPlugin({
 ![npm](https://img.shields.io/npm/v/webpack-open-browser-plugin)
 [![downloads](https://img.shields.io/npm/dm/webpack-open-browser-plugin.svg?style=flat-square)](https://www.npmtrends.com/webpack-open-browser-plugin)
 [![MIT License](https://img.shields.io/npm/l/webpack-open-browser-plugin.svg?style=flat-square)](https://github.com/fisker/webpack-open-browser-plugin/blob/master/license)
+
+本插件结合了webpack的编译hook钩子实现的。
+
+打开浏览器的功能兼容 Windows 和 Mac。
+
+(https://www.npmjs.com/package/webpack-open-browser-plugin)[https://www.npmjs.com/package/webpack-open-browser-plugin]
