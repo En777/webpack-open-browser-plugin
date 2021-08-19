@@ -1,0 +1,20 @@
+{
+  "name": "webpack-open-browser-plugin",
+  "version": "1.0.0",
+  "description": "open browser when webpack after compile(all done)",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/En777/webpack-open-browser-plugin"
+  },
+  "keywords": [
+    "webpack",
+    "devServer",
+    "openBrowser",
+    "plugin"
+  ],
+  "author": "En777",
+  "license": "MIT"
+}
