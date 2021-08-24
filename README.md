@@ -31,6 +31,11 @@ module.exports = {
     })
   ]
 }
+
+// Remember to turn off the open browser with devServer, because you have OpenBrowserPlugin now.
+// config.devServer: {
+//   open: false
+// }
 ```
 ![npm](https://img.shields.io/npm/v/webpack-open-browser-plugin)
 [![downloads](https://img.shields.io/npm/dm/webpack-open-browser-plugin.svg?style=flat-square)](https://www.npmtrends.com/webpack-open-browser-plugin)
