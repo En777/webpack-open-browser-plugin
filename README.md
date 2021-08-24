@@ -20,10 +20,17 @@ npm install webpack-open-browser-plugin --save-dev
 const OpenBrowserPlugin = require('webpack-open-browser-plugin');
 
 // webpack.config.js
-// add plugin to config.plugins
-new OpenBrowserPlugin({
-  url: 'http://localhost:8080'
-})
+// add to config.plugins
+module.exports = {
+  plugins: [
+    // other plugins
+
+    // add plugin
+    new OpenBrowserPlugin({
+      url: 'http://localhost:8080'
+    })
+  ]
+}
 ```
 ![npm](https://img.shields.io/npm/v/webpack-open-browser-plugin)
 [![downloads](https://img.shields.io/npm/dm/webpack-open-browser-plugin.svg?style=flat-square)](https://www.npmtrends.com/webpack-open-browser-plugin)
